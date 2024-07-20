@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "lib": ["dom", "es6"],
+    "allowJs": true,
+    "jsx": "react", // Use 'react' instead of 'preserve' for Jest
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "types": ["node", "jest"]
+  },
+  "include": ["src/**/*", "__tests__/**/*"]
+}
